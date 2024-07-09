@@ -1,50 +1,32 @@
-# Welcome to your Expo app 👋
+# Adote Aqui - Versão Mobile
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 2º Projeto: Adote Aqui - Versão Mobile (Sim! Ele mesmo!)
 
-## Get started
+Empolgado com o primeiro projeto, resolvi criar o projeto "Adote Aqui" em versão Mobile, desta vez utilizando o Expo (sem ser pelo snack). Este projeto é uma evolução da ideia anterior da aplicação em C# .Net. Ele conta com login via Google, e, assim que você se logar, ele funcionará como um "Match" de adoções de animais. O usuário pode visualizar diversos animais reais que estão para adoção, dar "Like" ou "Passar", e, caso haja um match, ele poderá entrar em contato com a ONG ou pessoa responsável para prosseguir com a adoção.
 
-1. Install dependencies
+### Funcionalidades
 
-   ```bash
-   npm install
-   ```
+1. **Tela de Login via Google**
+2. **Tela de Cartões de Animais para Adoção**
+   - Cada cartão contém informações como nome, descrição e localização do animal.
+3. **Tela de Conta do Usuário**
 
-2. Start the app
+### Tecnologias Utilizadas
 
-   ```bash
-    npx expo start
-   ```
+- **React Native Expo**: Para o desenvolvimento da aplicação mobile.
+- **Native Base**: Para ajudar na agilidade do desenvolvimento de componentes.
+- **Zustand**: Para persistir dados globais.
+- **Clerk**: Para login e autenticação via Google.
+- **NestJS**: Back-end da aplicação utilizando TypeORM (em desenvolvimento).
 
-In the output, you'll find options to open the app in a
+### Progresso
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+O projeto ainda está em desenvolvimento, mas compartilho algumas imagens para mostrar o progresso. Estou aberto a sugestões para aprimorar esta aplicação incrível que tenho orgulho de estar desenvolvendo sozinho.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Contribuição
 
-## Get a fresh project
+Qualquer sugestão para melhoria é bem-vinda! Se você deseja contribuir com o projeto ou precisa de mais informações, sinta-se à vontade para entrar em contato.
 
-When you're ready, run:
+### Contato
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Para mais informações ou links, por favor, entre em contato e disponibilizo o projeto!
